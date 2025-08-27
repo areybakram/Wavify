@@ -7,6 +7,7 @@ Every video upload includes the **video itself** and the **command (prompt)** us
 
 Features
 -  **Authentication** – Users must sign up or log in before accessing the app  
+-  **Persistent Login (Context API)** – Once logged in, users stay authenticated across sessions using React Context  
 -  **Upload Videos** – Upload AI-generated videos with the exact command/prompt used  
 -  **Browse & Watch** – Explore videos uploaded by other users  
 -  **Prompt Sharing** – Learn how different prompts shape AI outputs  
