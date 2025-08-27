@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+Wavify
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Wavify** is a React Native mobile app where users can upload and explore **AI-generated videos**.  
+Every video upload includes the **video itself** and the **command (prompt)** used to generate it, making it easy to learn, get inspired, and discover creative AI ideas from others. 
 
-## Get started
+---
 
-1. Install dependencies
+Features
+-  **Authentication** – Users must sign up or log in before accessing the app  
+-  **Upload Videos** – Upload AI-generated videos with the exact command/prompt used  
+-  **Browse & Watch** – Explore videos uploaded by other users  
+-  **Prompt Sharing** – Learn how different prompts shape AI outputs  
+-  **Creative Community** – Share your unique AI video ideas with others  
 
+---
+
+Tech Stack
+
+- **Frontend**: React Native + Expo  
+- **Backend**: Appwrite (Storage + Database)  
+- **Libraries & Tools**:  
+  - Expo AV (video playback)  
+  - Expo Image/Document Picker  
+  - React Native UI components  
+  - GitHub for version control  
+
+---
+
+Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/areybakram/Wavify.git
+   cd wavify
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Set up **Appwrite**:
+   - Create a new project in [Appwrite Cloud](https://cloud.appwrite.io/).
+   - Enable **Authentication, Database, and Storage**.
+   - Create a `.env` file in the project root with:
+     ```env
+     APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+     APPWRITE_PROJECT_ID=your_project_id
+     APPWRITE_STORAGE_ID=your_storage_id
+     APPWRITE_DATABASE_ID=your_database_id
+     ```
 
+4. Run the project:
    ```bash
    npx expo start
    ```
+---
 
-In the output, you'll find options to open the app in a
+Contributing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork this repo and open a Pull Request.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Created By:
+ 
+Mohammad Areeb Akram
+Mobile Application Developer 
+LinkedIn: www.linkedin.com/in/areeb-akram-56a3a5348
+ 
